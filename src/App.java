@@ -1,14 +1,25 @@
 import modelo.Movie;
+import modelo.Serie;
 
 public class App {
     public static void main(String[] args) {
 
-        Movie matrix = new Movie();
-        matrix.setNombre("Matrix");
-        matrix.setDuracion(120);
-        matrix.setFechaDeLanzamiento(1999);;
+        Main main = new Main();
+        main.Menu();
 
-        matrix.mostrarFicha();
+        // Movie matrix = new Movie();
+        // matrix.setNombre("Matrix");
+        // matrix.setDuracion(120);
+        // matrix.setFechaDeLanzamiento(1999);
+        // matrix.mostrarFicha();
+
+        // Serie friends = new Serie();
+        // friends.setNombre("Friends");
+        // friends.setFechaDeLanzamiento(1996);
+        // friends.setTemporadas(10);
+        // friends.setEpisodiosTemporada(22);
+        // friends.setDuracionMinutosEpisodio(30);
+        // friends.mostrarFicha();
         
             // System.out.println("Hello, World!");
             // // System.out.println("Pelicula Matrix");
